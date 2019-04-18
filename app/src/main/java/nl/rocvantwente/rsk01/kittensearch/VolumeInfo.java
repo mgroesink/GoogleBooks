@@ -14,6 +14,24 @@ public class VolumeInfo {
     private int mPageCount;
     private String mTitle;
     private String mDescription;
+    private String mIsbn10 = "";
+    private String mIsbn13 = "";
+
+    public String getmIsbn10() {
+        return mIsbn10;
+    }
+
+    public void setmIsbn10(String mIsbn10) {
+        this.mIsbn10 = mIsbn10;
+    }
+
+    public String getmIsbn13() {
+        return mIsbn13;
+    }
+
+    public void setmIsbn13(String mIsbn13) {
+        this.mIsbn13 = mIsbn13;
+    }
 
     public Date getmPublishedDate() {
         return mPublishedDate;
